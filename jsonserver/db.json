@@ -1,32 +1,101 @@
 {
-  "question": {
-    "userAvatar": "user_avatar.png",
-    "username": "JohnDoe123",
-    "questionTitle": "How to sort an array in JavaScript?",
-    "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
-    "language": "JavaScript",
-    "upvotes": 10,
-    "answers": 3,
-    "postedDate": "2023-05-30"
-  },
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "avatar": "user_avatar.png",
+      "email": "john@example.com",
+      "password": "hashed_password"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "avatar": "user_avatar2.png",
+      "email": "jane@example.com",
+      "password": "hashed_password"
+    },
+    {
+      "id": 3,
+      "username": "sam_johnson",
+      "avatar": "user_avatar3.png",
+      "email": "sam@example.com",
+      "password": "hashed_password"
+    }
+  ],
+  "forum": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "answers": 3,
+      "postedDate": "2023-05-30"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "questionTitle": "React component not rendering",
+      "questionDescription": "My React component is not rendering. What could be the issue?",
+      "language": "React",
+      "upvotes": 5,
+      "answers": 2,
+      "postedDate": "2023-06-02"
+    },
+    {
+      "id": 3,
+      "username": "sam_johnson",
+      "questionTitle": "Python dictionary manipulation",
+      "questionDescription": "How can I manipulate a Python dictionary efficiently?",
+      "language": "Python",
+      "upvotes": 8,
+      "answers": 4,
+      "postedDate": "2023-06-05"
+    }
+  ],
   "answers": [
     {
-      "userAvatar": "user_avatar2.png",
-      "username": "JaneSmith456",
+      "id": 1,
+      "questionId": 1,
+      "username": "jane_smith",
       "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
       "postedDate": "2023-05-31"
     },
     {
-      "userAvatar": "user_avatar3.png",
-      "username": "SamJohnson789",
+      "id": 2,
+      "questionId": 1,
+      "username": "sam_johnson",
       "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
       "postedDate": "2023-06-01"
     },
     {
-      "userAvatar": "user_avatar4.png",
-      "username": "EmilyBrownXYZ",
-      "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+      "id": 3,
+      "questionId": 1,
+      "username": "emily_brown",
+      "answerText": "You can also use libraries like 'Lodash' for array manipulation in JavaScript...",
       "postedDate": "2023-06-01"
+    },
+    {
+      "id": 4,
+      "questionId": 2,
+      "username": "john_doe",
+      "answerText": "Check if you have exported your React component correctly and that it's included in your application...",
+      "postedDate": "2023-06-03"
+    },
+    {
+      "id": 5,
+      "questionId": 2,
+      "username": "jane_smith",
+      "answerText": "Make sure you have provided the correct props to your component...",
+      "postedDate": "2023-06-04"
+    },
+    {
+      "id": 6,
+      "questionId": 3,
+      "username": "sam_johnson",
+      "answerText": "In Python, you can use dictionary methods like 'update', 'pop', and 'del' for manipulation...",
+      "postedDate": "2023-06-06"
     }
   ]
 }
